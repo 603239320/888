@@ -398,7 +398,7 @@ export default () => {
                     border-slate
                     border-none
                     hover:border-dashed
-                    href="https://shop.terobox.com?from=1127"
+                    href="http://mxnf.store/234.png"
                     target="_blank">
                     购买 OpenAI API 账号/密钥
                   </a>
