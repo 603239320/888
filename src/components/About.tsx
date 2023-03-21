@@ -39,7 +39,7 @@ export default () => (
       <span text-lg text-pink-6>
         更新
       </span>{" "}
-      由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～
+      由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您代搭网站
     </p>
     <p class="flex flex-wrap items-end mt-1">
       欢迎加入{" "}
