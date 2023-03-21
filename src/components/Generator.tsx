@@ -398,7 +398,7 @@ export default () => {
                     border-slate
                     border-none
                     hover:border-dashed
-                    href="http://mxnf.store/234.png"
+                    href="http://gpt.mxnf.store/123/123.jpg"
                     target="_blank">
                     购买 OpenAI API 账号/密钥
                   </a>
