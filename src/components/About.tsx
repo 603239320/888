@@ -42,9 +42,9 @@ export default () => (
       由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您代搭网站
     </p>
     <p class="flex flex-wrap items-end mt-1">
-      进入官网..更多黑科技{" "}
-      <a href="http://mxnf.tk" target="_blank">
-        <img src="https://img.shields.io/badge/-点我进入-fff?logo=Telegram" />
+     欢迎加入{" "}
+      <a href="https://jq.qq.com/?_wv=1027&k=AGD8mpTe" target="_blank">
+        <img src="https://img.shields.io/badge/-QQ交流群-fff?logo=Telegram" />
       </a>{" "}
      <a href="https://sourl.cn/7dPPQn"><img src="http://mxnf.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
     </p>
