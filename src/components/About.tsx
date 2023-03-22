@@ -46,7 +46,7 @@ export default () => (
       <a href="http://mxnf.tk" target="_blank">
         <img src="https://img.shields.io/badge/-点我进入-fff?logo=Telegram" />
       </a>{" "}
-     <a href="https://sourl.cn/7dPPQn"><img src="http://mxn1f.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
+     <a href="https://sourl.cn/7dPPQn"><img src="http://mxnf.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
     </p>
   </div>
 );
