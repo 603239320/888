@@ -2,7 +2,7 @@ export default () => (
   <div text-sm text-slate-4 pt-2 ml-1 border-t border-dashed border-slate>
     <span text-lg text-pink-6>关于</span>
     {"  "}
-    本站基于{" GPT-3.5"}
+  
     <a
       border-b
       border-slate
