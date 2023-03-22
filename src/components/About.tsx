@@ -26,9 +26,9 @@ export default () => (
       </a>{" "}
     
     </strong>
-    你也可以选中"免费体验密钥"功能 ，即可使用站长提供的
-    <strong>免费密钥</strong>
-    体验 。
+
+    <strong></strong>
+    
     <p>
       <span text-lg text-pink-6>重要</span>{" "}
       因为访问人数较多,免费秘钥经常失效不稳定,建议联系站长个位数获取独立账号+秘钥+高级网站!{" "}
