@@ -42,7 +42,7 @@ export default () => (
       由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您代搭网站
     </p>
     <p class="flex flex-wrap items-end mt-1">
-      进入官网更多黑科技{" "}
+      进入官网..更多黑科技{" "}
       <a href="http://mxnf.tk" target="_blank">
         <img src="https://img.shields.io/badge/-点我进入-fff?logo=Telegram" />
       </a>{" "}
