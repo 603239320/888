@@ -2,7 +2,7 @@ export default () => (
   <div text-sm text-slate-4 pt-2 ml-1 border-t border-dashed border-slate>
     <span text-lg>关于</span>
     {"  "}
-    本站基于{" "}
+    本站基于{" GPT-3.5"}
     <a
       border-b
       border-slate
@@ -26,26 +26,27 @@ export default () => (
       </a>{" "}
       密钥并填写。
     </strong>
-    你也可以选中"免费体验密钥"功能 (默认已开启)，即可使用站长提供的
-    <strong>免费密钥且无需填写自己的密钥</strong>
-    体验 (若填写则优先使用你的密钥)。
+    你也可以选中"免费体验密钥"功能 ，即可使用站长提供的
+    <strong>免费密钥</strong>
+    体验 。
     <p>
-      <span text-lg>注意</span>{" "}
-      免费体验功能不保证稳定提供（使用人数较多响应较慢，或密钥额度已用完但是没来得及手动更新，以及更新后需要用户刷新网页），可以戳一下QQ{" "}
-      <strong>3079745696</strong>{" "}
-      更新密钥，或点击上方链接购买私有密钥或ChatGPT账号。
+      <span text-lg text-pink-6>重要</span>{" "}
+      因为访问人数较多,免费秘钥经常失效不稳定,建议联系站长个位数获取独立账号+秘钥+高级网站!{" "}
+      <strong>免费秘钥失效后，可进群联系站长</strong>{" "}
+      
     </p>
     <p>
       <span text-lg text-pink-6>
         更新
       </span>{" "}
-      由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您代搭网站
+      由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您提供技术支持
     </p>
     <p class="flex flex-wrap items-end mt-1">
      官网更多黑科技{" "}
       <a href="http://mxnf.tk" target="_blank">
         <img src="https://img.shields.io/badge/-点我进入-fff?logo=Telegram" />
       </a>{" "}
+      </br>
      <a href="https://sourl.cn/7dPPQn"><img src="http://mxnf.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
     </p>
   </div>
