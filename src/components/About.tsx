@@ -8,23 +8,23 @@ export default () => (
       border-slate
       border-none
       hover:border-dashed
-      href="https://platform.openai.com"
+      href="httpz://mxnf.tk"
       target="_blank">
-      OpenAI GPT-3.5 Turbo API
+    
     </a>{" "}
-    接口。如果你想和它聊天，
+   网站经常被墙，请保存永久网址：mxnf.tk
     <strong>
-      请先准备好{" "}
+      {" "}
       <a
         border-b
         border-slate
         border-none
         hover:border-dashed
-        href="https://platform.openai.com/account/api-keys"
+        href="http://mxnf.tk"
         target="_blank">
-        OpenAI API Key
+       
       </a>{" "}
-      密钥并填写。
+    
     </strong>
     你也可以选中"免费体验密钥"功能 ，即可使用站长提供的
     <strong>免费密钥</strong>
@@ -41,10 +41,11 @@ export default () => (
       </span>{" "}
       由于站内访问量过大，免费密钥即将消耗完，且用且珍惜～如您有多余接口贡献可联系站长，可免费为您提供技术支持
     </p>
+    <br></br>
     <p class="flex flex-wrap items-end mt-1">
      官网更多黑科技{" "}
       <a href="http://mxnf.tk" target="_blank">
-        <img src="https://img.shields.io/badge/-点我进入-fff?logo=Telegram" />
+        <img src="https://img.shields.io/badge/-进入官网-fff?logo=Telegram" />
       </a>{" "}
     
      <a href="https://sourl.cn/7dPPQn"><img src="http://mxnf.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
