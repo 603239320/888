@@ -2,7 +2,7 @@
 
 与 AI 对话，基于 ChatGPT [OpenAI GPT-3.5 Turbo API](https://platform.openai.com/docs/guides/chat)，并提供免费体验密钥，支持自定义 OpenAI API 密钥。
 
-> tip：欢迎加入 <a href='https://t.me/yesmore_cc'><img src='https://img.shields.io/badge/-Juiçe的秘密基地-fff?logo=Telegram'/></a> 与喵娘聊天~（集成ChatGPT机器人）
+> tip： <a href='https://t.me/yesmore_cc'><img src='/--fff?logo=Telegram'/></a> 
 
 ![web](./web.png)
 
@@ -15,10 +15,6 @@
 
 特别提供预设文件（中/英文），方便开发者集成:
 
-**源文件**
-
-- [prompts.json](https://github.com/yesmore/QA/blob/main/src/data/prompts.json)
-- [prompts-zh.json](https://github.com/yesmore/QA/blob/main/src/data/prompts-zh.json)
 
 **Api调用**
 
@@ -46,8 +42,6 @@
 
 ## 本地调试
 
-```bash
-git clone https://github.com/yesmore/QA.git
 
 cp .env.example .env
 
@@ -56,19 +50,9 @@ pnpm i
 pnpm dev
 ```
 
-## 部署到 Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyesmore%2FQA&env=OPENAI_API_KEY&envDescription=OpenAI%20API%20Key&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys)
-
 
 ## 开源许可
 
 [GPL](./LICENSE)
 
-## 鸣谢
 
-- [chatgpt-demo](https://github.com/ddiu8081/chatgpt-demo)
-- [Awesome ChatGPT Prompts](https://prompts.chat/)
-- [ChatGPT 中文调教指南](https://chatguide.plexpt.com/)
-
-<a href="https://www.buymeacoffee.com/yesmore/gallery" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
