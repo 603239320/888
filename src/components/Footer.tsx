@@ -31,7 +31,7 @@ export default () => (
          <span>搭建同款</span>
       </a>
       
-   import React from 'react';
+  import React from 'react';
 
 const JoinQQGroup = () => {
   const html = `
