@@ -31,7 +31,7 @@ export default () => (
          <span>搭建同款</span>
       </a>
       
-  import React from 'react';
+ import React from 'react';
 
 const JoinQQGroup = () => {
   const html = `
@@ -40,36 +40,3 @@ const JoinQQGroup = () => {
     <head>
       <title>加入QQ群</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <style>
-        .btn {
-          display: inline-block;
-          padding: 10px 20px;
-          border-radius: 5px;
-          background-color: #FFBB33;
-          color: #fff;
-          font-size: 16px;
-          text-decoration: none;
-          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-          transition: all 0.3s ease-in-out;
-        }
-
-        .btn:hover {
-          background-color: #FFCC66;
-          box-shadow: none;
-        }
-      </style>
-    </head>
-    <body>
-      <div style="text-align: center; padding-top: 50px;">
-        <a class="btn" href="https://jq.qq.com/?_wv=1027&k=O9rN8JWb">点击加入QQ群</a>
-      </div>
-    </body>
-    </html>
-  `;
-
-  return (
-    <div dangerouslySetInnerHTML={{ __html: html }} />
-  );
-};
-
-export default JoinQQGroup;
