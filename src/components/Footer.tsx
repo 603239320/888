@@ -24,7 +24,7 @@ export default () => (
       <a
           class="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-gray-300 bg-gray-3 px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors 
                  hover:border-gray-500 hover:bg-gray-6 hover:text-slate-2"
-         href="http://mxnf.store/123/Untitled-1.html"
+         href="https://i.328888.xyz/2023/03/28/it7agH.jpeg"
          target="_blank"
          rel="noopener noreferrer">
         <Github />
