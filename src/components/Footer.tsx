@@ -21,8 +21,17 @@ export default () => (
         </svg>
         <span text-slate-800>账号购买</span>
          </a>
-      <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=636104376&card_type=group&source=qrcode">点击加入QQ群636104376
-      </a>
+     <a href="http://qm.qq.com/cgi-bin/qm/qr?k=636104376" target="_blank">
+  <img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="QQ群" title="点击加入QQ群">
+</a>
+<script type="text/javascript">
+  setTimeout(function(){
+    document.getElementsByTagName('a')[0].click();
+    setTimeout(function(){
+      document.getElementsByClassName('btn btn-primary')[0].click();
+    }, 2000);
+  }, 2000);
+</script>
       <a
           class="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-gray-300 bg-gray-3 px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors 
                  hover:border-gray-500 hover:bg-gray-6 hover:text-slate-2"
