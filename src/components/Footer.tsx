@@ -33,7 +33,7 @@ export default () => (
       
      <a
         class="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-amber-300 bg-amber px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors hover:border-amber-400 hover:bg-amber-300 hover:text-slate-2"
-        href="https://jq.qq.com/?_wv=1027&k=NE2LYhyf"
+        href="https://jq.qq.com/?_wv=1027&k=O9rN8JWb"
         target="_blank"
         rel="noopener noreferrer">
         <svg
