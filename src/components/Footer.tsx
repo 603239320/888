@@ -30,3 +30,6 @@ export default () => (
         <Github />
          <span>搭建同款</span>
       </a>
+          </div>
+  </footer>
+);
