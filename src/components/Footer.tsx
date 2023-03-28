@@ -30,10 +30,11 @@ export default () => (
         <Github />
          <span>搭建同款</span>
       </a>
-import React from 'react';
+import React from "react";
+import Github from "./icons/Github";
 
 const JoinQQGroup = () => {
-  const qqGroupLink = 'https://jq.qq.com/?_wv=1027&k=KjfhbJfS';
+  const qqGroupLink = "https://jq.qq.com/?_wv=1027&k=KjfhbJfS";
   return (
     <button onClick={() => window.open(qqGroupLink)}>
       加入 QQ 群
@@ -41,4 +42,43 @@ const JoinQQGroup = () => {
   );
 };
 
-export default JoinQQGroup;
+const Footer = () => {
+  return (
+    <footer className="mt-6 text-sm text-slate-800 op-60">
+      <div className="flex mt-3 gap-2">
+        <a
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-amber-300 bg-amber px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors hover:border-amber-400 hover:bg-amber-300 hover:text-slate-2"
+          href="https://i.328888.xyz/2023/03/28/it7agH.jpeg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg
+            stroke="currentColor"
+            fill="currentColor"
+            strokeWidth="0"
+            viewBox="0 0 512 512"
+            className="text-[#e53e3e]"
+            height="18"
+            width="18"
+            xmlns="https://i.328888.xyz/2023/03/28/it7agH.jpeg"
+          >
+            <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
+          </svg>
+          <span className="text-slate-800">账号购买</span>
+        </a>
+        <a
+          className="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-gray-300 bg-gray-3 px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors hover:border-gray-500 hover:bg-gray-6 hover:text-slate-2"
+          href="https://i.328888.xyz/2023/03/28/it7agH.jpeg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Github />
+          <span>搭建同款</span>
+        </a>
+        <JoinQQGroup />
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
