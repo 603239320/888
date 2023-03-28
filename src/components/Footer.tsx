@@ -35,7 +35,7 @@ export default () => (
 );
 import { useState } from "react";
 
-export default function QQGroup() {
+export default function Footer() {
   const [redirectUrl, setRedirectUrl] = useState("");
 
   const handleClick = () => {
