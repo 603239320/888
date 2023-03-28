@@ -33,3 +33,31 @@ export default () => (
           </div>
   </footer>
 );
+import { useState } from "react";
+
+export default function QQGroup() {
+  const [redirectUrl, setRedirectUrl] = useState("");
+
+  const handleClick = () => {
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      const qqUrl = "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=636104376&card_type=group&source=qrcode";
+      setRedirectUrl(qqUrl);
+    } else {
+      const qqUrl = "https://jq.qq.com/?_wv=1027&k=KzLjRgD1";
+      window.open(qqUrl, "_blank");
+    }
+  };
+
+  if (redirectUrl) {
+    window.location.href = redirectUrl;
+  }
+
+  return (
+    <div className="flex items-center justify-center">
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={handleClick}>
+        加入QQ群
+      </button>
+    </div>
+  );
+}
