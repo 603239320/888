@@ -21,7 +21,7 @@ export default () => (
         </svg>
         <span text-slate-800>账号购买</span>
          </a>
-      <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=群号码&card_type=group&source=qrcode">点击加入QQ群636104376
+      <a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=636104376&card_type=group&source=qrcode">点击加入QQ群636104376
       </a>
       <a
           class="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-gray-300 bg-gray-3 px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors 
