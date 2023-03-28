@@ -30,13 +30,15 @@ export default () => (
         <Github />
          <span>搭建同款</span>
       </a>
-      
- import React from 'react';
+import React from 'react';
 
 const JoinQQGroup = () => {
-  const html = `
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <title>加入QQ群</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+  const qqGroupLink = 'https://jq.qq.com/?_wv=1027&k=KjfhbJfS';
+  return (
+    <button onClick={() => window.open(qqGroupLink)}>
+      加入 QQ 群
+    </button>
+  );
+};
+
+export default JoinQQGroup;
