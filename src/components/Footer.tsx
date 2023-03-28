@@ -40,7 +40,7 @@ const JoinQQGroup = () => {
       加入 QQ 群
     </button>
   );
-};
+}; 
 
 const Footer = () => {
   return (
