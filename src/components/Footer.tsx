@@ -23,7 +23,7 @@ export default () => (
          </a>
      <a href="http://qm.qq.com/cgi-bin/qm/qr?k=636104376" target="_blank">
   <img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="QQ群" title="点击加入QQ群">
-</a>
+    </a>
       <a
           class="flex max-w-fit items-center justify-center space-x-2 rounded-1 border border-gray-300 bg-gray-3 px-3 py-2 text-sm text-gray-600 shadow-sm transition-colors 
                  hover:border-gray-500 hover:bg-gray-6 hover:text-slate-2"
