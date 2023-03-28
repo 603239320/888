@@ -33,15 +33,6 @@ export default () => (
 import React from "react";
 import Github from "./icons/Github";
 
-const JoinQQGroup = () => {
-  const qqGroupLink = "https://jq.qq.com/?_wv=1027&k=KjfhbJfS";
-  return (
-    <button onClick={() => window.open(qqGroupLink)}>
-      加入 QQ 群
-    </button>
-  );
-}; 
-
 const Footer = () => {
   return (
     <footer className="mt-6 text-sm text-slate-800 op-60">
