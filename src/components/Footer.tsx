@@ -34,6 +34,5 @@ export default () => (
          <span>搭建同款</span>
       </a>
           </a>
-  </footer>
+  </div>
 );
-    export default Footer;
