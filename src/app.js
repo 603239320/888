@@ -11,7 +11,7 @@ const password = process.env.PASSWORD;
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-  const auth = {login: 'admin', password: password}; // 定义用户名和密码
+  const auth = {login: 'admin', password: 123}; // 定义用户名和密码
   const b64auth = (req.headers.authorization || '').split(' ')[1] || '';
   const [login, pwd] = Buffer.from(b64auth, 'base64').toString().split(':');
 
