@@ -36,3 +36,4 @@ export default () => (
           </a>
   </div>
 );
+    </html>
