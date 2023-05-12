@@ -12,7 +12,7 @@ export default () => (
       target="_blank">
     
     </a>{" "}
-   网站经常被墙，请保存永久网址：mxnf.tk
+   网站经常被墙
     <strong>
       {" "}
       <a
@@ -44,11 +44,11 @@ export default () => (
     <br></br>
     <p class="flex flex-wrap items-end mt-1">
      官网更多黑科技{" "}
-      <a href="http://mxnf.tk" target="_blank">
-        <img src="https://img.shields.io/badge/-进入官网-fff?logo=Telegram" />
+      <a href="http">
+        <img src="https" />
       </a>{" "}
     
-     <a href="https://sourl.cn/7dPPQn"><img src="http://mxnf.store/123/liuliang.png" width="2541" height="1600" alt=""/></a>
+     <a href="http"http" width="2541" height="1600" alt=""/></a>
     </p>
   </div>
 );
