@@ -12,7 +12,7 @@ export default () => (
       target="_blank">
     
     </a>{" "}
-   网站经常被墙，请保存永久网址：mxnf.tk
+   网
     <strong>
       {" "}
       <a
